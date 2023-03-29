@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ProfilePic from '@/public/download.jpg';
+import ProfilePic from '@/public/PGK_Profile.jpg';
 import { motion } from 'framer-motion';
 
 const About = () => {
