@@ -4,9 +4,9 @@ import defaultImage from '@/public/thumbnails/download.png';
 import { motion } from 'framer-motion';
 
 import activityShowdownThumbnail from '@/public/thumbnails/activity_showdown_thumbnail.png';
-import pgklosetThumbnail from '@/public/thumbnails/pgkloset_Thumbnail.png';
-import cubechanixThumbnail from '@/public/thumbnails/cubechanix_Thumbnail.png';
-import currencyverterThumbnail from '@/public/thumbnails/currencyverter_Thumbnail.png';
+import pgklosetThumbnail from '@/public/thumbnails/pgkloset_thumbnail.png';
+import cubechanixThumbnail from '@/public/thumbnails/cubechanix_thumbnail.png';
+import currencyverterThumbnail from '@/public/thumbnails/currencyverter_thumbnail.png';
 
 const Projects = () => {
     return (
@@ -27,7 +27,7 @@ const Projects = () => {
                     <ProjectItem
                         title='PGKloset.com'
                         backgroundImage={pgklosetThumbnail}
-                        projectUrl='https://github.com/pgk1216/PGKloset'
+                        projectUrl='https://github.com/pgk1216/PGKloset'    
                         tech='Python // Django'
                     />
                     <ProjectItem
