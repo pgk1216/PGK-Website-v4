@@ -15,7 +15,7 @@ const Contact = () => {
         viewport={{ once: true }}
         id='contact' className='w-full py-16'>
             <div className='w-[80%] lg:max-w-[1240px] m-auto px-2 py-16'>
-                <h2 className=' text-teal-700 mb-10 text-center lg:text-left'>Let's Talk About Anything!</h2>
+                <h2 className=' text-teal-700 mb-10 text-center lg:text-left'>Let&apos;s Talk About Anything!</h2>
                 <div className='mb-32'>
                     <p>Want to get in touch? Shoot me an email at <a className='underline text-teal-700' href="mailto:pgk1216@gmail.com">pgk1216@gmail.com</a></p>
                 </div>

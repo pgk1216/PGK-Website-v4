@@ -21,7 +21,7 @@ const Projects = () => {
         id='projects' className='w-full'>
             <div className='w-[80%] lg:max-w-[1240px] mx-auto px-2 py-32'>
                 <h2 className='py-4 text-teal-700 text-center lg:text-left'>
-                    Some projects I've worked on...
+                    Some projects I&apos;ve worked on...
                 </h2>
                 <div className='grid md:grid-cols-3 gap-16 py-4'>
                     <ProjectItem

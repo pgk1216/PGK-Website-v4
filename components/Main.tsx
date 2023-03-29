@@ -14,7 +14,7 @@ const Main = () => {
                         transition={{
                             duration: 1,
                         }}
-                        className='py-2 text-gray-800 font-bold md:text-7xl'>'Sup!👋 I'm <span className='text-teal-700'>Philip</span>
+                        className='py-2 text-gray-800 font-bold md:text-7xl'>&apos;Sup!👋 I&apos;m <span className='text-teal-700'>Philip</span>
                         </motion.h2>
                         <motion.h3
                         initial={{ y: 25, opacity: 0 }}
@@ -23,7 +23,7 @@ const Main = () => {
                             delay: 1.4,
                             duration: 1,
                         }}
-                        className='text-xl text-gray-800 py-2 md:text-2xl'>I'm a <span className='font-bold'>Software Engineer</span></motion.h3>
+                        className='text-xl text-gray-800 py-2 md:text-2xl'>I&apos;m a <span className='font-bold'>Software Engineer</span></motion.h3>
                         <motion.p
                         initial={{ y: 25, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
@@ -31,7 +31,7 @@ const Main = () => {
                             delay: 2.4,
                             duration: 1,
                         }}
-                        className='text-medium py-3 leading-7 max-w-3xl mx-auto md:text-lg'>I've worked in both front-end and back-end development. I previously worked at Alarm.com under the <span className='font-bold'>Software Engineer - Android</span> title. I am currently <span className='font-bold'>open to work!</span>
+                        className='text-medium py-3 leading-7 max-w-3xl mx-auto md:text-lg'>I&apos;ve worked in both front-end and back-end development. I previously worked at Alarm.com under the <span className='font-bold'>Software Engineer - Android</span> title. I am currently <span className='font-bold'>open to work!</span>
                         </motion.p>
                     </div>
                     <motion.div
