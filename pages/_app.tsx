@@ -1,17 +1,17 @@
-import {motion, AnimatePresence} from 'framer-motion';
-import '@/styles/globals.css'
-import { useRouter } from 'next/router';
-import type { AppProps } from 'next/app'
+import { motion, AnimatePresence } from "framer-motion";
+import "@/styles/globals.css";
+import { useRouter } from "next/router";
+import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   return (
-    <AnimatePresence mode='wait'>
+    <AnimatePresence mode="wait">
       <motion.div
         key={router.route}
-        initial='initialState'
-        animate='animateState'
-        exit='exitState'
+        initial="initialState"
+        animate="animateState"
+        exit="exitState"
         transition={{
           duration: 1,
         }}
@@ -22,13 +22,12 @@ export default function App({ Component, pageProps }: AppProps) {
           animateState: {
             opacity: 1,
           },
-          exitState: {
-
-          },
+          exitState: {},
         }}
-        className='base-page-size'>
+        className="base-page-size"
+      >
         <Component {...pageProps} />
       </motion.div>
     </AnimatePresence>
-  )
+  );
 }

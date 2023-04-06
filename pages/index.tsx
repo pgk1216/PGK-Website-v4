@@ -1,9 +1,9 @@
-import Navbar from '@/components/Navbar';
-import Main from '@/components/Main';
-import About from '@/components/About';
-import Contact from '@/components/Contact';
-import Projects from '@/components/Projects';
-import Head from 'next/head';
+import Navbar from "@/components/Navbar";
+import Main from "@/components/Main";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Projects from "@/components/Projects";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -15,14 +15,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
-    <Navbar />
-    <Main />
-    <About />
-    <Projects />
-    <Contact />
+      <Navbar />
+      <Main />
+      <About />
+      <Projects />
+      <Contact />
     </>
-  )
+  );
 }
