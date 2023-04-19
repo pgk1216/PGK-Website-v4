@@ -29,7 +29,7 @@ const Projects = () => {
           <ProjectItem
             title="Corner Cuts Appointments"
             backgroundImage={defaultImage}
-            projectUrl="/"
+            projectUrl="https://github.com/pgk1216/Corner-Cuts"
             tech="React.js // Node.js // MongoDB"
           />
           <ProjectItem
