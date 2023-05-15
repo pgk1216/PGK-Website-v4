@@ -7,6 +7,7 @@ import activityShowdownThumbnail from "@/public/thumbnails/activity_showdown_thu
 import pgklosetThumbnail from "@/public/thumbnails/pgkloset_thumbnail.png";
 import cubechanixThumbnail from "@/public/thumbnails/cubechanix_thumbnail.png";
 import currencyverterThumbnail from "@/public/thumbnails/currencyverter_thumbnail.png";
+import threemorethumbnail from "@/public/thumbnails/3More_thumbnail.png";
 
 const Projects = () => {
   return (
@@ -26,6 +27,12 @@ const Projects = () => {
           Some projects I&apos;ve worked on...
         </h2>
         <div className="grid md:grid-cols-3 gap-16 py-4">
+          <ProjectItem
+            title="3More"
+            backgroundImage={threemorethumbnail}
+            projectUrl=""
+            tech="React Native"
+          />
           <ProjectItem
             title="Corner Cuts Appointments"
             backgroundImage={defaultImage}
