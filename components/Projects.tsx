@@ -7,7 +7,7 @@ import activityShowdownThumbnail from "@/public/thumbnails/activity_showdown_thu
 import pgklosetThumbnail from "@/public/thumbnails/pgkloset_thumbnail.png";
 import cubechanixThumbnail from "@/public/thumbnails/cubechanix_thumbnail.png";
 import currencyverterThumbnail from "@/public/thumbnails/currencyverter_thumbnail.png";
-import threemorethumbnail from "@/public/thumbnails/3More_thumbnail.png";
+import threemorethumbnail from "@/public/thumbnails/3more_logo.jpg";
 
 const Projects = () => {
   return (
@@ -30,8 +30,8 @@ const Projects = () => {
           <ProjectItem
             title="3More"
             backgroundImage={threemorethumbnail}
-            projectUrl=""
-            tech="React Native"
+            projectUrl="https://apps.apple.com/us/app/3more/id6464441506"
+            tech="React Native // Expo // Firebase"
           />
           <ProjectItem
             title="Corner Cuts Appointments"
