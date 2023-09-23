@@ -43,11 +43,15 @@ const About = () => {
           </p>
 
           <p className="py-2 text-base">
-            As of <span className="text-teal-700">April 2023</span>, I am
-            working on an appointment booking website for my friend who cuts
-            hair in his free time. I plan on implementing a MongoDB database to
-            hold the appointment dates and users, as well as React.js and
-            Node.js to build the front-end and back-end.
+            As of <span className="text-teal-700">September 2023</span>, I have
+            just released my workout tracking app, 3More, to both the Play Store
+            and App Store. Made with React Native and Expo, 3More is an
+            application where users can input their workouts daily and keep
+            track of their progress (mainly catered towards Powerlifters). This
+            is without a doubt the biggest project I have ever worked on and
+            have learned a plethora of crucial lessons: from creating neat code
+            for a large codebase to understanding the works of user
+            authentication.
           </p>
 
           <p className="py-2 text-base">
